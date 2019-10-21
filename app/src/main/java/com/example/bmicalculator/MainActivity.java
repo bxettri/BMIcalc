@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btncal.setOnClickListener((View.OnClickListener) this);
     }
 
+    //validation
     public boolean valid(){
         if(et1.getText().toString().trim().equals("") || et2.getText().toString().trim().equals("")){
             return true;
