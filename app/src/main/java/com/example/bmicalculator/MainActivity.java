@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et2=findViewById(R.id.txtHeight);
         txtRes=findViewById(R.id.txtres);
         btncal=findViewById(R.id.btnCalculate);
-
         btncal.setOnClickListener((View.OnClickListener) this);
     }
 
